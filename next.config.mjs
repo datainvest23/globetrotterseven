@@ -16,6 +16,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  basePath: process.env.NODE_ENV === 'production' ? '/globetrotterseven' : '',
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
