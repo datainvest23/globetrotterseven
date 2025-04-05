@@ -34,6 +34,9 @@ export default function Navbar() {
             <Link href="/services" className="text-sm font-medium transition-colors hover:text-primary">
               {t("nav.services")}
             </Link>
+            <Link href="/unity-homes" className="text-sm font-medium transition-colors hover:text-primary">
+              Unity Homes
+            </Link>
             <Link href="/contact" className="text-sm font-medium transition-colors hover:text-primary">
               {t("nav.contact")}
             </Link>
@@ -86,6 +89,13 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               {t("nav.services")}
+            </Link>
+            <Link
+              href="/unity-homes"
+              className="text-sm font-medium transition-colors hover:text-primary"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Unity Homes
             </Link>
             <Link
               href="/contact"

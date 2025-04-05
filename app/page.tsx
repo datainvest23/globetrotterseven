@@ -17,6 +17,32 @@ export default function Home() {
       {/* CTA Component added below hero section */}
       <CTA />
 
+      {/* Unity Homes Featured Section */}
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-50 dark:bg-blue-950">
+        <div className="container px-4 md:px-6">
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
+            <div className="space-y-4">
+              <div className="inline-block bg-blue-100 dark:bg-blue-900 px-3 py-1 text-sm text-blue-800 dark:text-blue-200 rounded-full">
+                Featured Project
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Unity Homes: Kenyan Property Investment</h2>
+              <p className="text-muted-foreground">
+                Award-winning apartments in Tatu City. Qualify for mortgages from top Kenyan banks as a diaspora investor. Meet our agent in Spain soon!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/unity-homes">
+                  <Button className="bg-blue-600 hover:bg-blue-700">Learn More About Unity Homes</Button>
+                </Link>
+              </div>
+            </div>
+            <div className="aspect-video rounded-lg overflow-hidden bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center">
+              <p className="text-white font-bold text-xl px-4 text-center">Unity Homes: Premium Apartments in Kenya</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Vision Section */}
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
@@ -46,6 +72,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Meet Maureen Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
@@ -76,6 +103,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Services Section */}
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
@@ -151,6 +179,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CTA Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">

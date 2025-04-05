@@ -66,6 +66,30 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "gradient-border": {
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(30%)" },
+        },
+        "gradient-1": {
+          "0%": { transform: "translateX(0) translateY(0)" },
+          "50%": { transform: "translateX(30%) translateY(20%)" },
+          "100%": { transform: "translateX(10%) translateY(30%)" },
+        },
+        "gradient-2": {
+          "0%": { transform: "translateX(0) translateY(0)" },
+          "50%": { transform: "translateX(-20%) translateY(20%)" },
+          "100%": { transform: "translateX(-10%) translateY(10%)" },
+        },
+        "gradient-3": {
+          "0%": { transform: "translateX(0) translateY(0)" },
+          "50%": { transform: "translateX(20%) translateY(-20%)" },
+          "100%": { transform: "translateX(10%) translateY(-10%)" },
+        },
+        "gradient-4": {
+          "0%": { transform: "translateX(0) translateY(0)" },
+          "50%": { transform: "translateX(-30%) translateY(-20%)" },
+          "100%": { transform: "translateX(-10%) translateY(-30%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
